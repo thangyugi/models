@@ -1,0 +1,13 @@
+# Cài torch phù hợp với CUDA trước, ví dụ:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+diffusers>=0.36.0
+transformers>=4.51.0
+accelerate
+safetensors
+huggingface_hub
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+# Tùy chọn: tự trích skeleton tư thế từ ảnh người thật (OpenPose)
+controlnet_aux
